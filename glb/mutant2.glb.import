@@ -1,0 +1,53 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://be310o7rln7a"
+path="res://.godot/imported/mutant2.glb-456fd9e26c288ea92bce8d75e16a14b8.scn"
+
+[deps]
+
+source_file="res://glb/mutant2.glb"
+dest_files=["res://.godot/imported/mutant2.glb-456fd9e26c288ea92bce8d75e16a14b8.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+import_script/path=""
+_subresources={
+"animations": {
+"Armature|mixamocom|Layer0": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "",
+"settings/loop_mode": 2
+}
+},
+"meshes": {
+"mutant2_MutantMesh": {
+"save_to_file/enabled": true
+}
+},
+"nodes": {
+"PATH:Armature/Skeleton3D": {
+"retarget/bone_map": null
+},
+"PATH:Armature/Skeleton3D/MutantMesh": {
+"decomposition/advanced": true,
+"generate/navmesh": 1,
+"generate/physics": true
+}
+}
+}

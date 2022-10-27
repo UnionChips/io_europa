@@ -1,0 +1,50 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dy6dpnpsx3iu6"
+path="res://.godot/imported/rose_thumb.glb-0e5080478bb6718557bb853fc3a8ed0e.scn"
+
+[deps]
+
+source_file="res://glb/rose_thumb.glb"
+dest_files=["res://.godot/imported/rose_thumb.glb-0e5080478bb6718557bb853fc3a8ed0e.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+import_script/path=""
+_subresources={
+"animations": {
+"ArmatureAction": {
+"save_to_file/enabled": true,
+"save_to_file/keep_custom_tracks": true,
+"save_to_file/path": "res://bird_data.res",
+"settings/loop_mode": 2
+}
+},
+"meshes": {
+"rose_thumb_Bodymesh": {
+"generate/lightmap_uv": 1,
+"generate/lods": 1,
+"generate/shadow_meshes": 1,
+"lods/normal_merge_angle": 60.0,
+"lods/normal_split_angle": 25.0,
+"save_to_file/enabled": true,
+"save_to_file/make_streamable": true,
+"save_to_file/path": "res://.res"
+}
+}
+}
